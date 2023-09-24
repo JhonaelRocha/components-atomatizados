@@ -1,0 +1,23 @@
+.infos_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+.infos_container > .tamanho{
+    width: 30px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.infos_container > .preco{
+    width: 100px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: white;
+}

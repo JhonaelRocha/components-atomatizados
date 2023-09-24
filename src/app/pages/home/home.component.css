@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+app-card{
+    transition: transform .6s; 
+}
+app-card:hover{
+    transform: scale(1.1);
+}
